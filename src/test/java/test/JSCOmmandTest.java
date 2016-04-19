@@ -6,6 +6,6 @@ public class JSCOmmandTest {
 
 	@Test
 	public void test() {
-	
+
 	}
 }
