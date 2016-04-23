@@ -3,11 +3,11 @@ package com.dreamersweekend.wrappers;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
-import com.dreamersweekend.driver.NemiDriver;
+import com.dreamersweekend.nemi.NemiDriver;
 
  class Executor {
 	 
-	static WebDriver driver = NemiDriver.getDriver();
+	static WebDriver driver = null;
 	
 	protected static Object execute(String command) {
 		JavascriptExecutor jsx = ((JavascriptExecutor)driver);

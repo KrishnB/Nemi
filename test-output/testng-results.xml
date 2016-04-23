@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22423" started-at="2016-04-18T15:10:25Z" finished-at="2016-04-18T15:10:47Z">
+  <suite name="Default suite" duration-ms="41153" started-at="2016-04-23T14:13:53Z" finished-at="2016-04-23T14:14:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22423" started-at="2016-04-18T15:10:25Z" finished-at="2016-04-18T15:10:47Z">
-      <class name="test.JSCOmmandTest">
-        <test-method status="PASS" signature="test()[pri:0, instance:test.JSCOmmandTest@233c0b17]" name="test" duration-ms="22404" started-at="2016-04-18T20:40:25Z" finished-at="2016-04-18T20:40:47Z">
+    <test name="Default test" duration-ms="41153" started-at="2016-04-23T14:13:53Z" finished-at="2016-04-23T14:14:34Z">
+      <class name="com.dreamersweekend.nemi.NemiDriverTest">
+        <test-method status="PASS" signature="nemiDriverTest()[pri:0, instance:com.dreamersweekend.nemi.NemiDriverTest@ea4a92b]" name="nemiDriverTest" duration-ms="41127" started-at="2016-04-23T19:43:53Z" finished-at="2016-04-23T19:44:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- test.JSCOmmandTest -->
+        </test-method> <!-- nemiDriverTest -->
+      </class> <!-- com.dreamersweekend.nemi.NemiDriverTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

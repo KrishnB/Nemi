@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Hook scenario",
+        "description": "",
+        "id": "nemi-do-wonders.;hook-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 129447515,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I hook",
+            "match": {
+              "location": "NemiDefinitions.i_hook(String)"
+            },
+            "keyword": "Given ",
+            "doc_string": {
+              "content_type": "",
+              "line": 12,
+              "value": "Multiline data"
+            }
+          },
+          {
+            "result": {
+              "duration": 171190,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I can hook",
+            "match": {
+              "location": "NemiDefinitions.i_can_hook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95243,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I will hook",
+            "match": {
+              "location": "NemiDefinitions.i_will_hook()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Browser(name\u003d\"Hello\")"
+          }
+        ]
+      }
+    ],
+    "name": "Nemi do wonders.",
+    "description": "",
+    "id": "nemi-do-wonders.",
+    "keyword": "Feature",
+    "uri": "nemi.feature"
+  }
+]

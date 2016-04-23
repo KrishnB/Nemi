@@ -15,6 +15,20 @@ public class Nemi {
 		return allLinks.size()==0?new ArrayList<>():allLinks;
 	}
 	
+	public void scrollToBottomOfPage() {
+		
+	}
+	
+	/**
+	 * Identifies absolute height of the webpage
+	 * @return
+	 */
+	public int getAbsoluteHeight() {
+		Integer height = (Integer) Executor.execute(JSCommand.GET_ABS_HEIGHT);
+		return height;
+	}
+	
+	
 	
 	
 	

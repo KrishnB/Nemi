@@ -1,0 +1,63 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Testing hooks",
+        "description": "",
+        "id": "nemi-do-wonders.;testing-hooks",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 149690277,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.dreamersweekend.stepdefinitions.NemiDefinitions.i_have_hooks(NemiDefinitions.java:12)\r\n\tat ✽.Given I have hooks(nemi.feature:5)\r\n",
+              "status": "pending"
+            },
+            "line": 5,
+            "name": "I have hooks",
+            "match": {
+              "location": "NemiDefinitions.i_have_hooks()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I wrote One",
+            "match": {
+              "location": "NemiDefinitions.i_wrote_One()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "They should run fine",
+            "match": {
+              "location": "NemiDefinitions.they_should_run_fine()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Browser1"
+          }
+        ]
+      }
+    ],
+    "name": "Nemi do wonders.",
+    "description": "",
+    "id": "nemi-do-wonders.",
+    "keyword": "Feature",
+    "uri": "nemi.feature"
+  }
+]
