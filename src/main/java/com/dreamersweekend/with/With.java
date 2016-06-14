@@ -80,7 +80,7 @@ public abstract class With {
 
 	  }
 
-	  public WebElement findElement(SearchContext context) {
+	  public NemiElement findElement(SearchContext context) {
 	    List<NemiElement> allElements = findElements(context);
 	    if (allElements == null || allElements.isEmpty())
 	      throw new NoSuchElementException("Cannot locate an element using "

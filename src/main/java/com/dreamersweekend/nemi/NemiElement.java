@@ -2,6 +2,10 @@ package com.dreamersweekend.nemi;
 
 import java.util.List;
 
+import org.openqa.selenium.SearchContext;
+import org.openqa.selenium.remote.FileDetector;
+import org.openqa.selenium.remote.RemoteMouse;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.remote.RemoteWebElement;
 
 import com.dreamersweekend.with.FindsWithClassName;
@@ -13,8 +17,18 @@ import com.dreamersweekend.with.FindsWithTagName;
 import com.dreamersweekend.with.FindsWithXPath;
 
 public class NemiElement extends RemoteWebElement implements WebElementReloaded, FindsWithId,
-									FindsWithCssSelector, FindsWithClassName, FindsWithLinkText,
-									FindsWithName, FindsWithTagName, FindsWithXPath{
+FindsWithCssSelector, FindsWithClassName, FindsWithLinkText,
+FindsWithName, FindsWithTagName, FindsWithXPath{
+
+	private String foundBy;
+	protected String id;
+	protected RemoteWebDriver parent;
+	protected RemoteMouse mouse;
+	protected FileDetector fileDetector;
+
+	protected void setFoundBy(SearchContext foundFrom, String locator, String term) {
+		this.foundBy = String.format("[%s] -> %s: %s", foundFrom, locator, term);
+	}
 
 	@Override
 	public NemiElement findElementWithXPath(String using) {
@@ -112,5 +126,5 @@ public class NemiElement extends RemoteWebElement implements WebElementReloaded,
 		return null;
 	}
 
-	
+
 }
